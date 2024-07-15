@@ -1,0 +1,50 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: gray;
+}
+.formContainer {
+  max-width: 25rem;
+  margin: 2rem auto 0 auto;
+  padding: 1.5rem;
+  border: 2px solid black;
+  border-radius: 0.5rem;
+  background-color: white;
+}
+
+.formTitle {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+.formContainer div {
+  margin-bottom: 1.5rem;
+}
+
+.label {
+  display: block;
+  margin-bottom: 0.5rem;
+  font-weight: bold;
+}
+
+.input {
+  width: 100%;
+  padding: 0.5rem;
+  border: 2px solid black;
+  border-radius: 0.5rem;
+}
+
+.errorMessage {
+  color: red;
+  font-size: 0.875rem;
+}
+
+.submitButton {
+  width: 100%;
+  padding: 0.5rem;
+  background-color: green;
+  border-radius: 0.5rem;
+  cursor: pointer;
+}
